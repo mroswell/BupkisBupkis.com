@@ -21,7 +21,7 @@ function onYouTubePlayerAPIReady(){
 
 function onPlayerReady(){
   tv.loadVideoById(vid[currVid]);
-  tv.mute();
+  tv.unMute();
 }
 
 function onPlayerStateChange(e) {
