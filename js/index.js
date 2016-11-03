@@ -59,7 +59,7 @@ $(window).on('load resize', function(){
 });
 
 $('.hi span:first-of-type').on('click', function(){
-  $('#tv').toggleClass('mute');
+  $('#tv').toggleClass('unmute');
   $('.hi em:first-of-type').toggleClass('hidden');
   if($('#tv').hasClass('mute')){
     tv.mute();
