@@ -4,11 +4,15 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var tv,
 		playerDefaults = {autoplay: 0, autohide: 1, modestbranding: 0, rel: 0, showinfo: 0, controls: 0, disablekb: 1, enablejsapi: 0, iv_load_policy: 3};
+//var vid = [
+//			{'videoId': '2b5QNj-BVhs', 'startSeconds': 515, 'endSeconds': 690, 'suggestedQuality': 'hd720'},
+//			{'videoId': '9ge5PzHSS0Y', 'startSeconds': 465, 'endSeconds': 657, 'suggestedQuality': 'hd720'},
+//			{'videoId': 'o68BNz6fQOU', 'startSeconds': 0, 'endSeconds': 240, 'suggestedQuality': 'hd720'},
+//			{'videoId': 'qMR-mPlyduE', 'startSeconds': 19, 'endSeconds': 241, 'suggestedQuality': 'hd720'}
+//		]
 var vid = [
-			{'videoId': '2b5QNj-BVhs', 'startSeconds': 515, 'endSeconds': 690, 'suggestedQuality': 'hd720'},
-			{'videoId': '9ge5PzHSS0Y', 'startSeconds': 465, 'endSeconds': 657, 'suggestedQuality': 'hd720'},
-			{'videoId': 'o68BNz6fQOU', 'startSeconds': 0, 'endSeconds': 240, 'suggestedQuality': 'hd720'},
-			{'videoId': 'qMR-mPlyduE', 'startSeconds': 19, 'endSeconds': 241, 'suggestedQuality': 'hd720'}
+
+			{'videoId': 'o68BNz6fQOU', 'startSeconds': 0, 'endSeconds': 240, 'suggestedQuality': 'hd720'}
 		],
 		randomVid = Math.floor(Math.random() * vid.length),
     currVid = randomVid;
