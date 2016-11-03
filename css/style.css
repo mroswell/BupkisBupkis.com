@@ -1,6 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Roboto+Slab:400);
 body {
   background: #000;
+    overflow: hidden;
 }
 a {
   color: #ff0;
