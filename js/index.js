@@ -7,7 +7,7 @@ var tv,
 var vid = [
 			{'videoId': '2b5QNj-BVhs', 'startSeconds': 515, 'endSeconds': 690, 'suggestedQuality': 'hd720'},
 			{'videoId': '9ge5PzHSS0Y', 'startSeconds': 465, 'endSeconds': 657, 'suggestedQuality': 'hd720'},
-			{'videoId': 'OWsCt7B-KWs', 'startSeconds': 0, 'endSeconds': 240, 'suggestedQuality': 'hd720'},
+			{'videoId': 'o68BNz6fQOU', 'startSeconds': 0, 'endSeconds': 240, 'suggestedQuality': 'hd720'},
 			{'videoId': 'qMR-mPlyduE', 'startSeconds': 19, 'endSeconds': 241, 'suggestedQuality': 'hd720'}
 		],
 		randomVid = Math.floor(Math.random() * vid.length),
