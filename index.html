@@ -2,11 +2,58 @@
 <html>
 <head>
   <title>Bupkis, Bupkis!</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossorigin="anonymous"></script>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <meta property='og:video' content='https://www.youtube.com/v/KyV1Cqh9388' />
 
 </head>
 <body>
-<iframe id="video" src="//www.youtube.com/embed/o68BNz6fQOU" frameborder="0" allowfullscreen></iframe>
+<!--<iframe id="video" src="//www.youtube.com/embed/o68BNz6fQOU" frameborder="0" allowfullscreen></iframe>-->
+<div class="container">
+  <section>
+    <div class="row">
+      <div class="col-sm-12">
+
+      <div class="text-right">
+
+        <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+        <!--<a href="https://www.facebook.com/sharer/sharer.php?u=bubkisbupkis.com">Share on Facebook</a>-->
+        <!--<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2FBupkisBupkis.com&amp;t=Clever text here" target="_blank"><i class="icon-facebook icon-2x custom-icon"></i></a>-->
+        <a class="btn btn-social-icon btn-tumblr"><i class="fa fa-tumblr"></i></a>
+        <a href="https://twitter.com/intent/tweet?text=Oy%20vey!%20A%20musical%20tribute%20to%20elect%20Hillary,%20and%20not%20the%20%23BupkisBupkis%20Donald&url=http://BupkisBupkis.com" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2FBupkisBupkis.com&amp;title=Clever text here&description=descript" target="_blank"" class="btn btn-social-icon btn-facebook">
+          <i class="fa fa-facebook"></i></a>    </div>
+    </div></div>
+  </section>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <!-- 4:3 aspect ratio -->
+      <div class="embed-responsive embed-responsive-16by9">
+        <!--<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/o68BNz6fQOU"></iframe>        -->
+        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/KyV1Cqh9388"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
 <script src='js/jquery.min.js'></script>
-<script src="js/index.js"></script>
+<!--<script src="js/index.js"></script>-->
+<script>
+  $("iframe").wrap("<div class='embed-responsive embed-responsive-16by9'></div>");
+</script>
 </body>
 </html>
+
+
