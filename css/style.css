@@ -6,6 +6,7 @@ body {
 a {
   color: #ff0;
 }
+section {margin:5px;}
 .cover {
   position: absolute;
   top: 0;
